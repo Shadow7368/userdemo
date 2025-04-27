@@ -14,8 +14,7 @@ pipeline {
 					
 							steps {
 							
-										echo "hello master"
-										sleep 1
+									
 							}
 					}
 		}
