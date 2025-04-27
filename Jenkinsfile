@@ -1,21 +1,10 @@
 pipeline {
-
-		agent {
-				label {
-							label "built-in"
-				}
-		}
-		
-		
-		stages {
-		
-					stage ("one") {
-					
-					
-							steps {
-							
-									
-							}
-					}
-		}
+    agent any
+    stages {
+        stage('something') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
 }
